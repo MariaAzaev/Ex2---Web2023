@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section {
+    display: block;
+}
+
+header {
+    width: 100%;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+}
+
+#wrapper {
+    margin: 0px 25px;
+}
+
+
+#logo {
+    background-image: url("../images/logo.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+#logo span {
+    margin-left: 78px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3E3F43;
+}
+
+.upper-area {
+    width: 1200px;
+    height: 555px;
+    background: #F9BDBD;
+}
+
+.upper-area h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    padding-top: 83px;
+    margin-left: 506px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: black;
+}
+
+.upper-area p {
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    margin-left: 506px;
+    padding-top: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.upper-area .user {
+    position: absolute;
+    width: 388px;
+    height: 306px;
+    left: 78px;
+    top: 288px;
+}
+
+.about h1{
+    position: absolute;
+    width: 89px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.about p {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 88px;
+    margin-right: 419px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+
+}
+
+.exercises h1 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 565px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container .ex1 {
+    position: absolute;
+    background: #FDEDE5;
+    width: 200px;
+    height: 265px;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 628px;
+    margin-left: 40px;
+}
+
+.main-container .ex1 h3 {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 128px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-container .ex1-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 24px;
+    margin-top: 24px;
+} 
+
+.ex1-button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 184px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 4px solid #FFFFFF
+}
+
+.ex1-button:hover {
+    background: black;
+    color: #FDEDE5;
+    border-radius: 4px;
+    border: 4px solid black
+}
+
+.main-container .ex2 {
+    position: absolute;
+    width: 200px;
+    height: 265px;
+    background: #EBF1FF;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 628px;
+    margin-left: 264px;
+}
+
+.main-container .ex2 h3 {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 128px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-container .ex2-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 24px;
+    margin-top: 24px;
+} 
+
+.ex2-button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 184px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 4px solid #FFFFFF
+}
+
+.ex2-button:hover {
+    background: black;
+    color: #EBF1FF;
+    border-radius: 4px;
+    border: 4px solid black
+}
+
+.main-container .ex3 {
+    position: absolute;
+    width: 200px;
+    height: 265px;
+    background: #EBFFEC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 628px;
+    margin-left: 488px;
+}
+
+.main-container .ex3 h3 {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 128px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-container .ex3-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 24px;
+    margin-top: 24px;
+} 
+
+.ex3-button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 184px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 4px solid #FFFFFF
+}
+
+.ex3-button:hover {
+    background: black;
+    color: #EBFFEC;
+    border-radius: 4px;
+    border: 4px solid black
+}
+
+.main-container .ex4 {
+    position: absolute;
+    width: 200px;
+    height: 265px;
+    background: #FFEBFC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 628px;
+    margin-left: 712px;
+}
+
+.main-container .ex4 h3 {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 128px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-container .ex4-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 24px;
+    margin-top: 24px;
+} 
+
+.ex4-button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 184px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 4px solid #FFFFFF
+}
+
+.ex4-button:hover {
+    background: black;
+    color: #FFEBFC;
+    border-radius: 4px;
+    border: 4px solid black
+}
+
+.main-container .ex5 {
+    position: absolute;
+    width: 200px;
+    height: 265px;
+    background: #FFFEEB;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 628px;
+    margin-left: 936px;
+}
+
+.main-container .ex5 h3 {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 128px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-container .ex5-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+
+.ex5-button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 184px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 4px solid #FFFFFF
+}
+
+.ex5-button:hover {
+    background: black;
+    color: #FFFEEB;
+    border-radius: 4px;
+    border: 4px solid black
+}
+
+.another-title h1 {
+    position: absolute;
+    width: 364px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 933px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.another-title ul {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 997px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.my-choise h1 {
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 1178px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.my-choice .upper-area {
+    width: 1200px;
+    height: 555px;
+    background: #F9BDBD;
+    margin-top: 1242px;
+    margin-left: 40px;
+}
+
+.first {
+    position: absolute;
+    width: 570px;
+    height: 370px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.second {
+    position: absolute;
+    width: 570px;
+    height: 300px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.my-choice .upper-area h1 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 315px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.my-choice .upper-area p {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 430px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+}
+
+footer .footer-img {
+    display: block;
+    margin-top: 271px;
+    width: 1200px;
+    height: 301px;
+
+}
+.social-media-links {
+    background: url(../images/footer.png);
+    position: absolute;
+    width: 1200px;
+    height: 301px;
+    margin-top: 271px;
+}
+
+.social-media-links h1 {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color:#333333;
+}
+
+footer .social-media-links .link1{  
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 73px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+footer .social-media-links .link2{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 108px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+footer .social-media-links .link3{
+    position: absolute; 
+    margin-left: 40px;
+    margin-top: 143px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+footer p {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 232px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8D8D8D;
+}
+
+
+footer a:hover {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 1;
+}
+
+
+
